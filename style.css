@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url("https://fonts.google.com/specimen/Figtree");
+}
+
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --white-color: hsl(0, 0%, 100%);
+    --grey-color: hsl(0, 0%, 50%);
+    --black-color: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+
+
+/*=============================================
+===============================================
+============    My Code   =====================
+===============================================
+===============================================
+*/
+
+.challenge-container-9 {
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--black-color);
+}
+
+.challenge-container-9 .card-9 {
+    width: 350px;
+    min-height: 400px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1),
+    10px 10px 0px 0px rgba(0, 0, 0, 0.5),
+    15px 15px 0px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid var(--black-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.challenge-container-9 .card-9:hover {
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1),
+    15px 15px 0px 0px rgba(0, 0, 0, 0.5),
+    20px 20px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.challenge-container-9 .card-9:hover  .card-9__info .card-9__title{
+    color: var(--primary-color);
+}
+
+.challenge-container-9 .card-9 .card-9__image {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.challenge-container-9 .card-9 .card-9__info {
+    padding-top: 1rem;
+}
+
+.challenge-container-9 .card-9 .card-9__info .badge {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.challenge-container-9 .card-9 .card-9__info .card-9__published-date {
+    padding: 1rem 0;
+    color: var(--black-color);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.challenge-container-9 .card-9 .card-9__info .card-9__title {
+    color: var(--black-color);
+    font-weight: 600;
+    padding-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.challenge-container-9 .card-9 .card-9__info .card-9__description {
+    color: var(--grey-color);
+    line-height: 1.6;
+}
+
+.challenge-container-9 .card-9 .card-9__info .card-9__author-info {
+    padding: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.challenge-container-9 .card-9 .card-9__info .card-9__author-info .card-9__author-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.challenge-container-9 .card-9 .card-9__info .card-9__author-info .card-9__author-name {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
